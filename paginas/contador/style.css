@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: antiquewhite;
+}
+
+.cont-contador {
+  width: 100%;
+  height: 90vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  grid-template: auto auto auto/ auto;
+  gap: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(23, 23, 52);
+}
+.painel-contador {
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(22, 22, 30);
+}
+.botao {
+  padding: 20px;
+  font-size: 1.2rem;
+  width: 200px;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 14px;
+  }
+  .botao {
+    width: 180px;
+  }
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+  .controles {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+  .botao {
+    margin: 10px;
+  }
+}
