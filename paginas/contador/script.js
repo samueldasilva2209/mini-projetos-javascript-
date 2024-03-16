@@ -1,7 +1,7 @@
-let botaoIncremento = document.querySelector("#incremento");
-let botaoDecremento = document.querySelector("#decremento");
-let botaoResetar = document.querySelector("#resetar");
-let painel = document.querySelector("#painel");
+const botaoIncremento = document.querySelector("#incremento");
+const botaoDecremento = document.querySelector("#decremento");
+const botaoResetar = document.querySelector("#resetar");
+const painel = document.querySelector("#painel");
 let cont = 0;
 
 function incrementar() {
